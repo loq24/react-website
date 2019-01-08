@@ -12,6 +12,7 @@ const HireMe = () => {
                 <li>React</li>
                 <li>React Native</li>
                 <li>Next.js</li>
+                <li>OOP PHP</li>
                 <li>Wordpress</li>
                 <li>Wordpress API</li>
                 <li>Wordpress Plugin Development</li>

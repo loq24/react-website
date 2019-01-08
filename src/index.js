@@ -7,6 +7,7 @@ import Layout from './layout';
 import Home from './pages/home';
 import Portfolio from './pages/portfolio';
 import HireMe from './pages/hire-me';
+import Page404 from './pages/page-404';
 
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
@@ -17,6 +18,7 @@ ReactDOM.render(
         <Route path="/" exact component={Layout(Home)} />
         <Route path="/recent-projects" exact component={Layout(Portfolio)} />
         <Route path="/hire-me" exact component={Layout(HireMe)} />
+        <Route component={Layout(Page404)} />
     </Switch>    
 </BrowserRouter>
 , document.getElementById('root'));
