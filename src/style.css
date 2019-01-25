@@ -109,9 +109,8 @@ p img{
     flex-flow: column wrap;
 }
 .project-wrapper h2{
-    border-left: 2px solid #111;
-    padding-left: 25px;
     text-transform: uppercase;
+    text-align: center;
 }
 .project-row{
     margin-bottom: 40px;

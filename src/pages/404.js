@@ -7,7 +7,7 @@ const Page404 = () => {
             <Helmet>
               <title>Error 404</title>
             </Helmet>
-            <h1>Error 404 not found.</h1>
+            <h1>Page not found. 404 Error.</h1>
         </div>
     );
 }

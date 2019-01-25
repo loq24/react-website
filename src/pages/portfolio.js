@@ -10,7 +10,7 @@ const Portfolio = () =>{
             <h1>Recent Projects</h1>
             <div>
                 <h2>React</h2>
-                <div className="project-row right">
+                <div className="project-row left">
                     <h3>The WOO</h3>
                     <p className="tools">
                         <span>React.js</span>
@@ -32,7 +32,7 @@ const Portfolio = () =>{
                     </p>
                     <a href="https://ebmeso.com/" rel="noopener noreferrer" target="_blank">VISIT SITE</a>
                 </div>
-                <div className="project-row right">
+                <div className="project-row left">
                     <h3>WP React</h3>
                     <p className="tools">
                         <span>React.js</span>
@@ -41,6 +41,16 @@ const Portfolio = () =>{
                         <span>Redux Form</span>
                     </p>
                     <a href="https://github.com/loq24/wp-react" rel="noopener noreferrer" target="_blank">VISIT GIT</a>
+                </div>
+                <div className="project-row left">
+                    <h3>Wordpress OAuth 2.0 with React</h3>
+                    <p className="tools">
+                        <span>React.js</span>
+                        <span>Wordpress API</span>
+                        <span>Redux</span>
+                        <span>OAuth 2.0</span>
+                    </p>
+                    <a href="https://github.com/loq24/oauth-demo" rel="noopener noreferrer" target="_blank">VISIT GIT</a>
                 </div>
                 <div className="project-row left">
                     <h3>Fake News No More</h3>
@@ -52,7 +62,7 @@ const Portfolio = () =>{
                     </p>
                     <a href="https://github.com/loq24/fakenews-no-more" rel="noopener noreferrer" target="_blank">VISIT GIT</a>
                 </div>
-                <div className="project-row right">
+                <div className="project-row left">
                     <h3>Data Table With Filter Form</h3>
                     <p className="tools">
                         <span>React.js</span>
@@ -69,7 +79,7 @@ const Portfolio = () =>{
             </div>
             <div>
                 <h2>Wordpress</h2>
-                <div className="project-row right">
+                <div className="project-row left">
                     <h3>WNA</h3>
                     <p className="tools">
                         <span>Wordpress</span>
@@ -82,7 +92,7 @@ const Portfolio = () =>{
             </div>
             <div>
                 <h2>CodeIgniter</h2>
-                <div className="project-row right">
+                <div className="project-row left">
                     <h3>Onlinejobs.PH</h3>
                     <p className="tools">
                         <span>PHP</span>
