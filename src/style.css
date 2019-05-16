@@ -90,6 +90,7 @@ p{
 p a{
     position: relative;
 }
+p a:hover{ background: #000; color: #FFF; }
 p a:after{
     content: " ";
     position: absolute;
@@ -114,25 +115,42 @@ p img{
 }
 .project-row{
     margin-bottom: 40px;
+    display: flex;
+    flex-flow: column wrap;
+    background: #faebd7;
+    padding: 20px;
 }
 .project-row.right{
     text-align: right;
 }
 .project-row h3{
-    line-height: .3em;
+    line-height: 1;
     text-transform: uppercase;
+    margin: 0 0 5px;
+}
+p.tools{
+    display: flex;
+    flex-flow: row wrap;
 }
 p.tools span{
-    padding: 5px 10px;
+    padding: 0 10px;
     margin-right: 5px;
-    background: black;
-    color: #FFF;
+    background: #000;
+    color: #fff;
+    margin-bottom: 5px;
+    transition: all .8s;
 }
 .project-row a{
     font-size: 12px;
-    padding: 5px 10px;
+    padding: 0 10px;
     border: 1px solid #111;
-    transition: all .5s;
+    transition: all .8s;
+    width: 150px;
+    text-align: center;
+}
+.project-row a:hover, p.tools span:hover{
+    background: #FFF;
+    color: #000;
 }
 .fadeIn{
    -webkit-animation: fadein 1s;

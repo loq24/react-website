@@ -4,7 +4,7 @@ const Footer = () => {
     return(
         <footer className="main-footer">
             <p className="copy">&copy; 2019 Lougie Quisel. All rights reserved.</p>
-            <p className="powered">This site is proudly powered by React.</p>
+            <p className="powered">This site is proudly powered by React.js</p>
         </footer>
     );
 }

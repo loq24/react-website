@@ -9,6 +9,19 @@ const Portfolio = () =>{
             </Helmet>
             <h1>Recent Projects</h1>
             <div>
+                <h2>React Native</h2>
+                <div className="project-row left">
+                    <h3>Hungry Duma</h3>
+                    <p className="tools">
+                        <span>React Native</span>
+                        <span>React Native Maps</span>
+                        <span>React Redux</span>
+                        <span>WP REST API</span>
+                    </p>
+                    <a href="https://play.google.com/store/apps/details?id=com.randomdumagueterestaurant" rel="noopener noreferrer" target="_blank">VISIT PLAY STORE</a>
+                </div>
+            </div>
+            <div>
                 <h2>React</h2>
                 <div className="project-row left">
                     <h3>The WOO</h3>
@@ -17,9 +30,10 @@ const Portfolio = () =>{
                         <span>Next.js</span>
                         <span>Redux</span>
                         <span>Redux Form</span>
+                        <span>WP REST API</span>
                         <span>SASS</span>
                     </p>
-                    <a href="https://thewoo.com/" rel="noopener noreferrer" target="_blank">VISIT SITE</a>
+                    <a href="https://thewoo.com/" rel="noopener noreferrer" target="_blank">VISIT WEBSITE</a>
                 </div>
                 <div className="project-row left">
                     <h3>Erin Brockovich</h3>
@@ -28,15 +42,16 @@ const Portfolio = () =>{
                         <span>Next.js</span>
                         <span>Redux</span>
                         <span>Redux Form</span>
+                        <span>WP REST API</span>
                         <span>SASS</span>
                     </p>
-                    <a href="https://ebmeso.com/" rel="noopener noreferrer" target="_blank">VISIT SITE</a>
+                    <a href="https://ebmeso.com/" rel="noopener noreferrer" target="_blank">VISIT WEBSITE</a>
                 </div>
                 <div className="project-row left">
                     <h3>WP React</h3>
                     <p className="tools">
                         <span>React.js</span>
-                        <span>Wordpress API</span>
+                        <span>WP REST API</span>
                         <span>Redux</span>
                         <span>Redux Form</span>
                     </p>
@@ -46,7 +61,7 @@ const Portfolio = () =>{
                     <h3>Wordpress OAuth 2.0 with React</h3>
                     <p className="tools">
                         <span>React.js</span>
-                        <span>Wordpress API</span>
+                        <span>WP REST API</span>
                         <span>Redux</span>
                         <span>OAuth 2.0</span>
                     </p>
@@ -87,7 +102,7 @@ const Portfolio = () =>{
                         <span>Mailchimp</span>
                         <span>Admin Reporting</span>
                     </p>
-                    <a href="https://whatnowatlanta.com/" rel="noopener noreferrer" target="_blank">VISIT SITE</a>
+                    <a href="https://whatnowatlanta.com/" rel="noopener noreferrer" target="_blank">VISIT WEBSITE</a>
                 </div>
             </div>
             <div>
@@ -99,7 +114,7 @@ const Portfolio = () =>{
                         <span>Database Management</span>
                         <span>Data Reporting</span>
                     </p>
-                    <a href="https://www.onlinejobs.ph/" rel="noopener noreferrer" target="_blank">VISIT SITE</a>
+                    <a href="https://www.onlinejobs.ph/" rel="noopener noreferrer" target="_blank">VISIT WEBSITE</a>
                 </div>
             </div>
         </div>
