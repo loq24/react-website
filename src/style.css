@@ -117,7 +117,7 @@ p img{
     margin-bottom: 40px;
     display: flex;
     flex-flow: column wrap;
-    background: #faebd7;
+    background: #f3f3f3;
     padding: 20px;
 }
 .project-row.right{
@@ -140,7 +140,7 @@ p.tools span{
     margin-bottom: 5px;
     transition: all .8s;
 }
-.project-row a{
+.project-row > a{
     font-size: 12px;
     padding: 0 10px;
     border: 1px solid #111;
